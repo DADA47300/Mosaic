@@ -63,15 +63,4 @@ cp image2.jpg thumbnails/
 python make_mosaic.py image1.jpg thumbnails 8 8 mosaic_out
 python make_movie.py image1.jpg mosaic_out 3 4 final_video.mp4
 ```
-
-## Améliorations possibles
-- Accepter plusieurs extensions d'image (jpg, png)
-- Ajouter argparse pour afficher `--help` et options plus conviviales
-- Nettoyer les fichiers temporaires (.mp4 intermédiaires)
-
 ---
-
-Si tu veux, je peux :
-- ajouter la prise en charge `.png` dans `make_mosaic.py`,
-- ajouter un script `run_example.sh` automatisant l'exécution,
-- ou convertir les scripts existants pour utiliser `argparse` et afficher de l'aide.
